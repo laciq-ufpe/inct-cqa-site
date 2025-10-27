@@ -13,3 +13,22 @@ body {
     color-scheme: dark;
   }
 }
+
+.after-drop::after, .before-drop::before {
+  content: "";
+  position: absolute;
+  height: 20vw;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+}
+
+.after-drop::after {
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0) 0%, var(--color-neutral-950) 50%, rgba(48, 48, 48, 0) 100%);
+  bottom: -10vw;
+}
+
+.before-drop::before {
+  background: linear-gradient(0deg, rgba(24, 24, 24, 0) 0%, var(--color-neutral-950) 50%, rgba(48, 48, 48, 0) 100%);
+  top: -10vw;
+}

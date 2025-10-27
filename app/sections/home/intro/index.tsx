@@ -3,7 +3,7 @@ const IntroSection = () => {
         <div className="w-full pt-30 pb-15 relative flex justify-center">
             <div
                 style={{backgroundImage: "url('public/background.jpg')"}}
-                className="w-full h-full bg-no-repeat bg-cover blur-[2px] bg-neutral-800/50 absolute top-0 bg-blend-multiply"
+                className="w-full h-full bg-no-repeat bg-cover blur-[2px] bg-neutral-800/75 absolute top-0 bg-blend-multiply"
             ></div>
             <div className="w-1/2 z-2">
                 <h1 className="text-4xl text-center mt-10 text-5xl/14 font-bold">Colaboração Acadêmica<br/>em Excelência</h1>
