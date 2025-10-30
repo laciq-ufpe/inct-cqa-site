@@ -20,8 +20,12 @@ const Header = () => {
                     <NavLink to="/about">
                         <p className="text-lg" style={(location.pathname === '/about') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Sobre</p>
                     </NavLink>
-                    <p className="text-lg">Institutos</p>
-                    <p className="text-lg">Membros</p>
+                    <NavLink to="/institutes">
+                        <p className="text-lg" style={(location.pathname === '/institutes') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Institutos</p>
+                    </NavLink>
+                    <NavLink to="/members">
+                        <p className="text-lg" style={(location.pathname === '/members') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Membros</p>
+                    </NavLink>
                 </div>
             </div>
         </div>
