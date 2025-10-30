@@ -1,7 +1,7 @@
 const CommunitySection = () => {
     return(
         <div
-            style={{backgroundImage: "url('public/background4.jpg')"}}
+            style={{backgroundImage: "url('/background4.jpg')"}}
             className="px-30 bg-no-repeat bg-cover bg-center py-20 bg-neutral-950/75 bg-blend-multiply"
         >
             <h1 className="text-4xl text-neutral-100 text-center font-semibold mb-5">Rede Nacional de Excelência</h1>

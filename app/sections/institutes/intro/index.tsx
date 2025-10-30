@@ -2,7 +2,7 @@ const IntroSection = () => {
     return (
         <div className="w-full pt-30 pb-15 relative flex justify-left">
             <div
-                style={{backgroundImage: "url('public/background2.jpg')"}}
+                style={{backgroundImage: "url('/background2.jpg')"}}
                 className="w-full h-full bg-no-repeat bg-cover bg-center blur-[2px] bg-neutral-800/75 absolute top-0 bg-blend-multiply"
             ></div>
             <div className="px-30 z-2">
