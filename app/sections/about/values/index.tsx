@@ -1,6 +1,6 @@
 import { Target, Lightbulb, Users2 } from "lucide-react";
-import HighlightedIcon from "~/components/highlighted-icon";
-import ValueCard from "~/components/value-card";
+import HighlightedIcon from "../../../components/highlighted-icon";
+import ValueCard from "../../../components/value-card";
 
 const ValuesSection = () => {
     return (

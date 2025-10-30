@@ -1,4 +1,4 @@
-import MemberCard from "~/components/member-card";
+import MemberCard from "../../../components/member-card";
 
 const MembersListSection = () => {
     return (

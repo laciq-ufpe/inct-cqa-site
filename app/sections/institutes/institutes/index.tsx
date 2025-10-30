@@ -1,4 +1,4 @@
-import InstituteCard from "~/components/institute-card";
+import InstituteCard from "../../../components/institute-card";
 
 const InstitutesSection = () => {
     return (

@@ -1,6 +1,6 @@
-import TopicCard from "~/components/topic-card";
+import TopicCard from "../../../components/topic-card";
 import { Users, Building2, BookOpen } from "lucide-react"
-import HighlightedIcon from "~/components/highlighted-icon";
+import HighlightedIcon from "../../../components/highlighted-icon";
 
 const TopicsSection = () => {
     return (
