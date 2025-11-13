@@ -1,4 +1,4 @@
-import { Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import type { Member } from "../../data/members";
 
 type prop = {
