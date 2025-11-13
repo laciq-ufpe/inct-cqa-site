@@ -60,7 +60,7 @@ const MemberCard = ({member}: prop) => {
                     href={member.lattes}
                     target="_blank"
                 >
-                    <img src="public/icons/lattes.png" className="text-neutral-600 h-5 object-cover" />
+                    <img src="/icons/lattes.png" className="text-neutral-600 h-5 object-cover" />
                 </a>
             </div>
         </div>
