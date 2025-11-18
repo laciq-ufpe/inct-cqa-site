@@ -4,7 +4,7 @@ import ValueCard from "../../../components/value-card";
 
 const ValuesSection = () => {
     return (
-        <div className="px-30 py-20 bg-neutral-200">
+        <div className="px-10 md:px-30 py-20 bg-neutral-200">
             <div className="w-full flex flex-col bg-neutral-500/25 gap-y-[1px]">
                 <div className="w-full bg-neutral-200 py-10">
                     <div className="flex flex-row gap-x-3 items-center mb-5">

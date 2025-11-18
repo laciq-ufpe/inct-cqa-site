@@ -9,7 +9,7 @@ const TopicCard = ({icon, title, description} : props) => {
     return (
         <div
             className="
-                w-25/100 flex flex-col items-center py-20 px-10 gap-y-5 rounded-xl bg-neutral-50
+                w-full md:w-25/100 flex flex-col items-center py-20 px-10 gap-y-5 rounded-xl bg-neutral-50
                 drop-shadow-sm drop-shadow-neutral-800/50 hover:drop-shadow-xl hover:drop-shadow-red-700/50
                 transition duration-500 delay- z-1
             "

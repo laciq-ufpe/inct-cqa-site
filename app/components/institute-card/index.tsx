@@ -4,7 +4,7 @@ import HighlightedIcon from "../highlighted-icon";
 const InstituteCard = () => {
     return (
         <div className="
-                w-1/2 py-10 px-10 rounded-xl bg-neutral-50 transition duration-500 z-1
+                w-full md:w-1/2 py-10 px-10 rounded-xl bg-neutral-50 transition duration-500 z-1
                 drop-shadow-sm drop-shadow-neutral-800/50 hover:drop-shadow-md hover:drop-shadow-red-700/50 
             "
         >

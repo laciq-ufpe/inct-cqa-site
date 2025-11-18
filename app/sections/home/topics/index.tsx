@@ -4,7 +4,7 @@ import HighlightedIcon from "../../../components/highlighted-icon";
 
 const TopicsSection = () => {
     return (
-        <div className="px-30 py-20 bg-neutral-200 flex flex-row gap-x-10 justify-center relative overflow-hidden">
+        <div className="px-10 lg:px-30 py-20 bg-neutral-200 flex flex-col md:flex-row gap-x-10 gap-y-10 justify-center relative overflow-hidden">
             <TopicCard
                 icon={
                     <HighlightedIcon icon={<Building2 style={{color: "var(--color-red-800)"}} />} />

@@ -2,7 +2,7 @@ const AboutSection = () => {
     const textClasses = "text-lg text-justify mt-5"
 
     return (
-        <div className="w-full px-30 pt-25 pb-20 text-neutral-200 bg-neutral-950 before-drop relative">
+        <div className="w-full px-10 lg:px-30 pt-25 pb-20 text-neutral-200 bg-neutral-950 before-drop relative">
             <h1 className="text-4xl font-bold text-center mb-7">O que é o INCT-CQA?</h1>
             <p className={textClasses}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <p className={textClasses}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
