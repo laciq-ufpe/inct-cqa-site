@@ -5,7 +5,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import "./app.css";
 
 import Home from "./routes/home";
-import About from "./routes/about";
+// import About from "./routes/about";
 import Institutes from "./routes/institutes";
 import Members from "./routes/members";
 
@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/institutes" element={<Institutes />} />
         <Route path="/members" element={<Members />} />
       </Routes>

@@ -1,11 +1,11 @@
 import { Mail } from "lucide-react";
 import type { Member } from "../../data/members";
 
-type prop = {
+type props = {
     member: Member
 }
 
-const MemberCard = ({member}: prop) => {
+const MemberCard = ({member}: props) => {
     const areaMap: {[area: string]: string} = {
         'COM': 'Computação',
         'MAT': 'Matemática',

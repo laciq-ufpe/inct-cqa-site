@@ -6,7 +6,7 @@ const IntroSection = () => {
                 className="w-full h-full bg-no-repeat bg-cover bg-center blur-[2px] bg-neutral-800/75 absolute top-0 bg-blend-multiply"
             ></div>
             <div className="px-10 md:px-30 z-2">
-                <h1 className="text-4xl mt-10 text-5xl/14 font-bold">Institutos Participantes</h1>
+                <h1 className="text-4xl mt-10 text-5xl/14 font-bold">Instituições Participantes</h1>
                 <p className="text-md w-4/5 md:w-3/5 mt-5 text-lg font-medium">Conheça as instituições acadêmicas de excelência que fazem parte desta iniciativa colaborativa.</p>
             </div>
         </div>

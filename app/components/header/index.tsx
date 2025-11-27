@@ -21,11 +21,11 @@ const Header = () => {
                     <NavLink to={"/"}>
                         <p className="text-lg" style={(location.pathname === '/') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Home</p>
                     </NavLink>
-                    <NavLink to="/about">
+                    {/* <NavLink to="/about">
                         <p className="text-lg" style={(location.pathname === '/about') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Sobre</p>
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/institutes">
-                        <p className="text-lg" style={(location.pathname === '/institutes') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Institutos</p>
+                        <p className="text-lg" style={(location.pathname === '/institutes') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Instituições</p>
                     </NavLink>
                     <NavLink to="/members">
                         <p className="text-lg" style={(location.pathname === '/members') ? {color: "var(--color-red-500)", fontWeight: "600"} : {}}>Membros</p>
